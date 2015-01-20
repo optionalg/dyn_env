@@ -5,6 +5,6 @@
 #
 class dyn_env {
 
-  notify { "Running in the ${::environment} environmnet": }
+  notify { "Running in the ${::environment} environment": }
 
 }
