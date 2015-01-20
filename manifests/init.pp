@@ -6,5 +6,5 @@
 class dyn_env {
 
   notify { "Running in the ${::environment} environment": }
-
+  notify { "We are now in the feature branch": }
 }
